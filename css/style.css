@@ -403,9 +403,10 @@ ul.btn li:last-child {
 
 @keyframes slideshow {
     0% { background-image: url('../images/banner.jpg'); }
-    33% { background-image: url('../images/banner 2.jpg'); }
-    66% { background-image: url('../images/banner 3.jpg'); }
-    100% { background-image: url('../images/banner4.jpg'); } /* Loop back */
+    20% { background-image: url('../images/banner 2.jpg'); }
+    50% { background-image: url('../images/banner 3.jpg'); }
+    70% { background-image: url('../images/banner4.jpg'); } 
+    100% { background-image: url('../images/banner.jpg');/* Loop back */
 }
 
 
