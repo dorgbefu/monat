@@ -406,7 +406,7 @@ ul.btn li:last-child {
     height: 100%;
     top: 0;
     left: 0;
-    z-index: -1; /* Send images behind the text */
+    z-index: -1; /* Ensure images are behind the text */
 }
 
 .slide {
@@ -415,25 +415,20 @@ ul.btn li:last-child {
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    transition: opacity 2s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
 }
 
 .slide.active {
     opacity: 1;
 }
 
-.text-bg {
-    position: relative;
-    z-index: 10;
-    text-align: center;
-    color: white;
-    background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent overlay */
-    padding: 20px;
-    border-radius: 10px;
-}
 
 
 /** end banner section **/
+
+
+
+
 
 .titlepage {
      text-align: center;
